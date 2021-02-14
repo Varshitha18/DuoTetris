@@ -1,3 +1,26 @@
+h1,p {text-align: center;}
+
+body {
+  background-color: lightblue;
+}
+
+.resetbtn {
+  text-align: center;
+}
+
+.scoreflex, .buttonflex{
+  margin-left: -90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .container {
   display: flex;
 }
@@ -31,3 +54,40 @@
   height: 20px;
   width: 20px;
 }
+
+
+
+.containers {
+  display: flex;
+}
+
+.grids {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.grids div {
+  height: 20px;
+  width: 20px;
+}
+
+.tetrominos {
+  background-color: burlywood;
+}
+.mini-grids {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.mini-grids div {
+  height: 20px;
+  width: 20px;
+}
+
